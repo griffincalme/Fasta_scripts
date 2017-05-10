@@ -8,3 +8,6 @@ Convert UniProt fasta to excel
 
 If you'd like csv instead, just swap out `df.to_excel(file + 'uniprot.xlsx', sheet_name='Sheet1', index=False)
 ` for `df.to_csv(file + 'uniprot.csv', index=False)`
+
+
+The scripts do not parse out sequence version 'SV=' or protein existence 'PE=' for TrEMBL entries, but this would only need some slight modification to accomplish.
