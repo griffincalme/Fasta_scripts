@@ -48,4 +48,5 @@ df['sequence'] = [str(seq_record.seq) for seq_record in fasta_line_generator4]
 # this program leaves out PE (protein evidence) and SV (sequence version) for TrEMBL entries
 
 # Save pandas df to excel
-df.to_excel(file + 'uniprot.xlsx', sheet_name='Sheet1', index=False)
+name = file.split('/')[-1]
+df.to_excel(name + 'uniprot.xlsx', sheet_name='Sheet1', index=False)
