@@ -16,5 +16,5 @@ The scripts do not parse out sequence version 'SV=' or protein existence 'PE=' f
 # Download XML
 Download individual XML files for each uniprot ID entered
 
-Edit the list for `download_uniprot_xml_pages.py`
+Edit the list inside `download_uniprot_xml_pages.py` and run.
 Or modify the code to open a list from a txt or csv file.
